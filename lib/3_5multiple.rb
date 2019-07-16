@@ -1,5 +1,3 @@
-
-
 def multiple(n) #is_multiple_of_3_or_5(n)
 if n == 3 or 5 
   return true 
