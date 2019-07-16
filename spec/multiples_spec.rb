@@ -15,13 +15,17 @@ describe "the is_multiple_of_3_or_5? method" do
   end
 end
 
-describe "the sum_of_3_or_5_multiples method" do 
-  
-  it "should return the result of the sum of numbers"
-    expect(is_the_sum_of)
-  end 
-  
-  it "should refuse the users" 
-    expect()
+describe "the sum_of_3_or_5_multiples method" do
+  it "should return the sum of every number up to the number passed as parameter" do
+    expect(sum_of_3_or_5_multiples(10)).to eq(23)#10 est la limite déterminée pour la machine 
+    expect(sum_of_3_or_5_multiples(11)).to eq(33)
+    expect(sum_of_3_or_5_multiples(0)).to eq(0)
+    expect(sum_of_3_or_5_multiples(3)).to eq(0)
   end
-end 
+  
+  it "should only accept entiers naturels as param" do
+    expect(sum_of_3_or_5_multiples(-1)).to eq("Saisis plutôt un entier naturel")
+    expect(sum_of_3_or_5_multiples(1.23)).to eq("Saisis plutôt un entier naturel")
+    expect(sum_of_3_or_5_multiples("chiffre")).to eq("Saisis plutôt un entier naturel")
+  end
+end
