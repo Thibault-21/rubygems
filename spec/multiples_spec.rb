@@ -15,13 +15,13 @@ describe "the is_multiple_of_3_or_5? method" do
   end
 end
 
-describe "the sum_of_3_or_5_multiples method" do 
+# describe "the sum_of_3_or_5_multiples method" do 
   
-  it "should return the result of the sum of numbers"
-  expect(is_the_sum_of)
-  end 
+#   it "should return the result of the sum of numbers"
+#     expect(is_the_sum_of)
+#   end 
   
-  it "should refuse the users" 
-  expect
-  end
-end 
+#   it "should refuse the users" 
+#     expect()
+#   end
+# end 
