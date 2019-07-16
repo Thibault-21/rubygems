@@ -26,6 +26,6 @@ describe "the sum_of_3_or_5_multiples method" do
   it "should only accept entiers naturels as param" do
     expect(sum_of_3_or_5_multiples(-1)).to eq("Saisis plutôt un entier naturel")
     expect(sum_of_3_or_5_multiples(1.23)).to eq("Saisis plutôt un entier naturel")
-    expect(sum_of_3_or_5_multiples("chiffre")).to eq("Saisis plutôt un entier naturel")
+    expect(sum_of_3_or_5_multiples("chiffre")).to eq("Saisis plutôt un entier naturel") #chiifre pour indique que c'est pas un string mais qu'il faut qu'il indique un entier naturel
   end
 end
