@@ -22,6 +22,6 @@ describe "the sum_of_3_or_5_multiples method" do
   end 
   
   it "should refuse the users" 
-  expect(is)
+  expect
   end
 end 
