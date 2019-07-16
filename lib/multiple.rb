@@ -7,7 +7,7 @@ def is_multiple_of_3_or_5(n) #multiple(n)
 end 
 
 def sum(final_number) #sum_of_3_or_5_multiples(final_number)
-  # (1..1000) 
+  array(1..1000) 
   if n == true 
     return final_number.sum
   end
