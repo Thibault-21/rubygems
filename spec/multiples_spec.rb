@@ -9,11 +9,19 @@ describe "the is_multiple_of_3_or_5? method" do
   end
   
   it "should return FALSE when an integer is NOT a multiple of 3 or 5" do
-    expect(is_multiple_of_3_or_5?(2)).to eq(false)
+    expect(is_multiple_of_3_or_5?(4)).to eq(false)
     expect(is_multiple_of_3_or_5?(7)).to eq(false)
     expect(is_multiple_of_3_or_5?(11)).to eq(false)
   end
 end
 
-# describe "the sum_of_3_or_5_multiples method" do 
-#   it "should return "
+describe "the sum_of_3_or_5_multiples method" do 
+  
+  it "should return the result of the sum of numbers"
+  expect(is_the_sum_of)
+  end 
+  
+  it "should refuse the users" 
+  expect(is)
+  end
+end 
