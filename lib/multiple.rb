@@ -1,7 +1,7 @@
 def is_multiple_of_3_or_5(n) #multiple(n)
-  if n %3 == 0 || n %5 == 0 
+  if n%3 == 0 || n %5 == 0 
     return true 
-  elsif 
+  else 
     return false
   end
 end 
